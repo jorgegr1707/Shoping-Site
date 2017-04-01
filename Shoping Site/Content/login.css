@@ -1,0 +1,261 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-weight: bold;
+    color: black;
+}
+
+body{
+	background: url("https://upload.wikimedia.org/wikipedia/en/0/0a/Plaza_Night.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.contenedorPrimario{
+	width: 100%;
+	overflow: hidden;
+}
+
+.navBar{
+	width: 80%;
+	margin: 0% 10% 0% 10%; 
+	overflow: hidden;
+}
+
+.navBar ul{
+	width: 96%;
+	max-width: 96%;
+	padding: 1% 1% 1% 1%;
+	margin: 1%; 
+	text-align: center;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.navBar li{
+    background: rgba(255, 255, 255, 0.5);
+	margin: 1% 1% 1% 1%;
+	padding: 1% 0% 1% 0%;
+	width: 30.5%;
+	font-size: 20px;
+	float: left;
+	border-radius: 20px;
+    border: solid white;
+	overflow: hidden;
+}
+
+
+#imagenVenta{
+	width: 80%;
+	margin: 1% 5% 1% 8%;
+	height: auto;
+	padding: 1% 1% 1% 1%;
+	border-radius: 15px;
+	float: left;
+}
+
+#etiquetasMenu{
+    background: rgba(255, 0, 0, 0.6);
+}
+
+#comun{
+	margin: 1%;
+	float: left;
+	border-radius: 20px;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+#navCategorias{
+    background: rgba(255, 0, 0, 0.6);
+    width: 50%;
+    margin: 1% 0% 1% 20%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1%;
+    overflow: hidden;
+}
+#navCategorias h3{
+    padding: 4%;
+    border-radius: 20px;
+}
+
+#botonCategoria{
+    background: rgba(255, 255, 255, 0.6);
+    width:29%;
+    float: left;
+    padding: 2%;
+    margin: 1% 2% 1% 2%;
+    border-radius: 20px;
+ 
+}
+
+.articulos{
+	width: 98%;
+    background: rgba(255, 0, 0, 0.6);
+	float: left;
+}
+.articulos li{
+    background: rgba(255, 255, 255, 0.6);
+	margin: 1% 2% 1% 1%;
+	padding: 1% 1% 1% 1%;
+	width: 15%;
+	font-size: 15px;
+	float: left;
+	border-radius: 29px;
+	overflow: hidden;
+}
+
+
+.carrito{
+	width: 60%;
+    float: left;
+	background: rgba(255, 255, 255, 0.6);
+	height: auto;
+    margin: 1% 0% 1% 10%;
+}
+.carrito ul{
+	width: 100%;
+	padding: 1% 1% 1% 4%;
+	margin: 1%; 
+	text-align: center;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.carrito li{
+	font-size: 5px;
+	margin: 1% 1% 1% 1%;
+	padding: 1% 0% 1% 0%;
+	width: 20%;
+	font-size: 20px;
+	float: left;
+	border-radius: 10px;
+	overflow: hidden;
+    background: rgba(255, 0, 0, 0.5);
+}
+.carrito img{
+    width: 80%;
+	margin: 1% 5% 1% 8%;
+	height: auto;
+	padding: 1% 1% 1% 1%;
+	border-radius: 15px;
+	float: left;
+}
+
+.carrito p{
+    font-size: 13px;
+}
+
+.contenido{
+	background: rgba(255, 0, 0, 0.5);
+	text-align: center;
+	width: 50%;
+	border-radius: 20px;
+	padding: 25px;
+	margin: 1% 25% 5% 25%;
+	box-sizing: border-box;
+	border: white 2px ridge;
+	float: left;
+}
+.contenido h1{
+	margin: 0% 0% 5% 0%; 
+}
+.contenido input{
+	padding: 1%;
+	margin: 2% 0% 4% 0%;
+}
+.contenido p{
+	text-align: left;
+	font-size: 19px;
+	margin: 1% 0% 1% 1%;
+	width: 37%;
+	float: left;
+}
+.contenido img{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 0% 1% 1% 1%;
+	border-radius: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#pagCrearCuenta{
+    display: none;
+    overflow: hidden;
+
+}
+
+#contenido{
+    display: block;
+}
+
+#contactenos{
+    display: none;
+}
+
+#error{
+    text-align: center;
+    margin: 1% 1% 0% 2% ;
+    float:left;
+}
+
+#textoJustificado{
+    text-align: center;
+    margin: 1%;
+}
+
+#botonCentrado{
+    text-align:center;
+    align-items: center;
+    width: 50%;
+    margin: 3% 0% 1% 0%;
+    padding: 2% 4% 2% 4%;
+    border-radius: 15px;
+}
+
+
+#oculto{
+    display: none;
+}
+
+
+.hiperlink{
+    font-size: 11px;
+    color: white;
+    text-decoration:underline;
+}
+
+#boton{
+    float: right;
+    padding: 2% 4% 2% 4%;
+    border-radius: 15px;
+    margin: 1% 1% 1% 10%;
+}
+
+#textspace {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+#mostrartxt{
+    background: rgba(255, 0, 0, 0.5);
+	text-align: center;
+	width: 50%;
+	border-radius: 20px;
+	padding: 25px;
+	margin: 1% 25% 5% 25%;
+	box-sizing: border-box;
+	border: white 2px ridge;
+}
+
+#txtparrafo{
+    text-align: left;
+}
+

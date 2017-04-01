@@ -1,0 +1,19 @@
+﻿
+
+
+<body onload="mostrarCrearCuenta()">
+    <section class="contenido" id="pagCrearCuenta">
+        <h1> Crear Cuenta </h1>
+        <form action="../Login/establecerCuenta" method="POST">
+            <p>
+                Nombre <input type="text" maxlength="25" value="" id="textspace" name="nombre" />
+                Usuario <input type="text" maxlength="25" value="" id="textspace" name="user" />
+                Contraseña <input type="password" maxlength="12" value="" id="textspace" name="cont" />
+                Confirme Contraseña <input type="password" maxlength="12" value="" id="textspace" name="rcont" />
+                <input type="submit" value="Crear" id="botonCentrado"/>
+            </p>
+           
+        </form>
+        <h3 style="padding: 5% 0% 10% 45%;">Las contraseñas no son iguales</h3>
+    </section>
+</body>

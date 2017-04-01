@@ -1,0 +1,17 @@
+﻿
+
+
+<body onload="mostrarContenido()">
+    <section class="contenido" id="contenido">
+        <h1 id="textoJustificado">Bienvenido @ViewBag.User ya puedes usar la tienda</h1>
+       <br><br>
+         <!-- este form toma los datos y los envia a la capa de controller  -->
+        <form action="../Tienda/Index" method="POST">
+            <p><input id="boton" type="submit" value="Ir a la tienda" /></p>
+        </form>
+        <form action="../Login/cerrarSesion" method="POST">
+            <p><input id="boton" type="submit" value="Cerrar Sesión" /></p>
+        </form>
+        <br>
+    </section>
+</body>

@@ -1,0 +1,19 @@
+﻿
+<body onload="mostrarContenido()">
+    <section class="contenido" id="contenido">
+        <h1> Login </h1>
+        <img src="http://img05.deviantart.net/806b/i/2015/246/6/0/laika_by_mightygraph-d988x97.jpg"></img>
+        <!-- este form toma los datos y los envia a la capa de controller  -->
+        <form action="../Login/VerificaLogin" method="POST">
+            <p>
+                Usuario: <input type="text" maxlength="25" value="" id="textspace" name="txtuser" />
+                Contraseña: <input type="text" maxlength="25" value="" id="textspace" name="txtcont" />
+                <input type="submit" value="Iniciar Sesión" style="padding: 5%; border-radius: 20px;" /><br>
+                <a href="../Login/crearCuenta" class="hiperlink">¿No tienes una cuenta?</a>
+            </p>
+        </form>
+        <h3 id="error">Debe digitar el nombre de usuario</h3>
+       
+    </section>
+</body>
+

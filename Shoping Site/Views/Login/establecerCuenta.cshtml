@@ -1,0 +1,19 @@
+﻿
+
+
+
+
+<body onload="mostrarCrearCuenta()">
+    <section  id="mostrartxt">
+        <p>
+            <h2 id="txtCentrar">Cuenta Creada Correctamente</h2>
+            <br>
+            <h3 id="txtparrafo">Nombre: @ViewBag.nombre</h3>
+            <h3  id="txtparrafo">Usuario: @ViewBag.usuario</h3>
+            <h3 id="txtparrafo">Conraseña: @ViewBag.cont</h3> 
+        </p>
+        <form action="../Login/Index" method="POST">
+            <input type="submit" value="Ingresar" id="botonCentrado" style="font-size: 20px; padding: 1%" />
+        </form>
+    </section>
+</body>

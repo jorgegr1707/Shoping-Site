@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Shoping Site</title>
+    <link href="~/Content/login.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/login.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="contenedorPrimario" id="pagInicio">
+        <section class="navBar" id="navBar">
+            <ul>
+                <li id="etiquetasMenu">
+                    <a>@Html.ActionLink("Tienda", "Index", "Tienda", new { area = "" }, new { @class = "navbar-brand" })</a>
+                </li>
+                <li id="etiquetasMenu">
+                    <a> @Html.ActionLink("Carrito", "Carrito", "Tienda", new { area = "" }, new { @class = "navbar-brand" })</a>
+                </li>
+                <li id="etiquetasMenu">
+                    <a>@Html.ActionLink("Ingresar", "Index", "Login", new { area = "" }, new { @class = "navbar-brand" })</a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    @RenderBody()
+    <!-- JS -->
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</body>
+</html>

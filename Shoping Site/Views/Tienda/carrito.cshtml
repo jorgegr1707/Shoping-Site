@@ -1,0 +1,22 @@
+﻿
+
+@model List<Shoping_Site.Models.Secundarias.Articulo>
+
+<section class="carrito" id="comun">
+    <br><br><h3>Mi Carrito de Compras</h3><br>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li id=@item.ID onclick="ejemplo(this)">
+                <form action="../Tienda/EliminarArticuloCarrito" method="POST">
+                    <p>Nombre: @Html.DisplayFor(ModelItem => item.nombre)</p>
+                    <p>Precio: @Html.DisplayFor(ModelItem => item.precio)</p>
+                    <img src="http://www.humordeanimales.com/wp-content/uploads/2015/07/perro-esponjoso.jpg" id="imagenVenta">
+                    <!-- elemento oculto para el paso de datos -->
+                    <input id="oculto" name="idArticulo" type="text" value=@item.ID />
+                    <p><input id="botonCentrado" type="submit" value="Eliminar" /></p>
+                </form>
+            </li>
+        }
+    </ul>
+</section>
